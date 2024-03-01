@@ -7,7 +7,7 @@ Jupiter notebooks created to help us plot and analyse our datasets
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
 
 
-This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a tidy format. It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
+This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
 
 ### **Key Features**
 
@@ -15,7 +15,7 @@ This Jupyter Notebook is crafted for the purpose of analyzing datasets maintaine
 
 - **Cohen's d Calculation**: Enables the computation of Cohen's d value, offering a quantitative measure of the effect size between groups and highlighting the significance of observed differences.
 
-- **Randomization Test Based on Cohen's d**: Implements a non-parametric randomization test using Cohen's d, suitable for datasets that may not meet the strict assumptions required for traditional parametric tests.
+- **Randomization Test Based on Cohen's d**: Implements a non-parametric randomization test using Cohen's d, suitable for datasets that may not meet the strict assumptions required for traditional parametric tests. More info on randomization [tests here](https://thenode.biologists.com/user-friendly-p-values/research/).
 
 - **Statistical Summaries Export**: Automatically generates and exports comprehensive statistical summaries, providing a snapshot of crucial metrics throughout the dataset.
 
