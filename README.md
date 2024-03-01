@@ -1,15 +1,65 @@
 # Plot_and_Stats
 Jupiter notebooks created to help us plot and analyse our datasets
 
+## Quick Start
 
-## Plot and Stats for Tidy Format
+Access the notebooks directly in Google Colab for an easy-to-use environment:
+
+- **Plot and Stats - Wide to Tidy Format**: Transform wide-format data into tidy format for analysis.
+  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_Wide_to_Tidy.ipynb)
+  
+- **Plot and Stats for Tidy Format**: Analyze datasets already in tidy format.
+  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
+
+
+## About the Notebooks
+
+
+### Plot and Stats - wide to tidy 
+This notebook is designed to transform wide-format data into a tidy format for further analysis
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
+
+
+Wide and tidy formats represent two principal ways of structuring tabular data:
+
+- **Wide Format**:
+  - Each row represents a subject or item.
+  - Observations spread across multiple columns.
+  - Suitable for data entry or presentation.
+  - Example with biological repeats:
+    ```
+    | Subject | Cond1_Repeat1 | Cond1_Repeat2 | Cond2_Repeat1 | Cond2_Repeat2 |
+    |---------|---------------|---------------|---------------|---------------|
+    | 1       | ValueA        | ValueB        | ValueC        | ValueD        |
+    ```
+
+- **Tidy Format**:
+  - Each column is a variable, each row an observation.
+  - Suited for statistical analysis and plotting.
+  - Each row represents a unique combination of variables.
+  - Example with biological repeats:
+    ```
+    | Subject | Condition | Repeat | Value  |
+    |---------|-----------|--------|--------|
+    | 1       | Cond1     | 1      | ValueA |
+    | 1       | Cond1     | 2      | ValueB |
+    | 1       | Cond2     | 1      | ValueC |
+    | 1       | Cond2     | 2      | ValueD |
+    ```
+
+Wide format is more readable for direct comparisons across a subject's measurements, while tidy format is optimized for analysis, making data transformations, summarizations, and visualizations more straightforward.
+
+### Plot and Stats for Tidy Format
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
 
 
 This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
 
-### **Key Features**
+#### **Key Features**
 
 - **Boxplots with Labels**: Creates detailed boxplots that visually differentiate each data point and clearly label repeats, facilitating an immediate understanding of the data distributions.
 
