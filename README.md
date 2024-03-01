@@ -7,7 +7,7 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
 
 - **Plot and Stats - Wide to Tidy Format**: Transform wide-format data into tidy format for analysis.
   
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_Wide_to_Tidy.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%20and%20Stats%20-%20wide%20to%20tidy.ipynb)
   
 - **Plot and Stats for Tidy Format**: Analyze datasets already in tidy format.
   
@@ -20,7 +20,7 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
 ### Plot and Stats - wide to tidy 
 This notebook is designed to transform wide-format data into a tidy format for further analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%20and%20Stats%20-%20wide%20to%20tidy.ipynb)
 
 
 Wide and tidy formats represent two principal ways of structuring tabular data:
