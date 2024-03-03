@@ -1,4 +1,4 @@
-# Plot_and_Stats
+# Plot&Stats
 Jupiter notebooks created to help us plot and analyse our datasets
 
 ## Quick Start
