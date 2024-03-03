@@ -5,11 +5,11 @@ Jupiter notebooks created to help us plot and analyse our datasets
 
 Access the notebooks directly in Google Colab for an easy-to-use environment:
 
-- **Plot and Stats - Wide to Tidy Format**: Transform wide-format data into tidy format for analysis.
+- **Plot&Stats - Wide to Tidy Format**: Transform wide-format data into tidy format for analysis.
   
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%20and%20Stats%20-%20wide%20to%20tidy.ipynb)
   
-- **Plot and Stats for Tidy Format**: Analyze datasets already in tidy format.
+- **Plot&Stats - BoxPlots**: Enhanced data visualization, quantifies effect size, adapts to non-standard distributions, streamlines analysis, ensures equitable group representation, achieves dataset balance for fairer comparisons, and delivers in-depth insights from balanced data.
   
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
 
@@ -52,7 +52,7 @@ Wide and tidy formats represent two principal ways of structuring tabular data:
 
 Wide format is more readable for direct comparisons across a subject's measurements, while tidy format is optimized for analysis, making data transformations, summarizations, and visualizations more straightforward.
 
-### Plot and Stats for Tidy Format
+### Plot&Stats - BoxPlots
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
 
