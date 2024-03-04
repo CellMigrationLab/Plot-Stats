@@ -7,7 +7,7 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
 
 - **Plot&Stats - Wide to Tidy Format**: Transform wide-format data into tidy format for analysis.
   
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%20and%20Stats%20-%20wide%20to%20tidy.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20BoxPlots.ipynb)
   
 - **Plot&Stats - BoxPlots**: Enhanced data visualization, quantifies effect size, adapts to non-standard distributions, streamlines analysis, ensures equitable group representation, achieves dataset balance for fairer comparisons, and delivers in-depth insights from balanced data.
   
@@ -54,7 +54,7 @@ Wide format is more readable for direct comparisons across a subject's measureme
 
 ### Plot&Stats - BoxPlots
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot_and_Stats_for_Tidy_Format.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20BoxPlots.ipynb)
 
 
 This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
