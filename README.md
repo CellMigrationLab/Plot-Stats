@@ -13,6 +13,9 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
   
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20BoxPlots.ipynb)
 
+- **Plot&Stats - dimensionality reduction**: Notebook for generating PCA, UMAP or t-SNE dimensional reduction of multidimensional datasets.
+    
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats-%20dimensionality%20reduction.ipynb)
 
 ## About the Notebooks
 
@@ -76,4 +79,17 @@ This Jupyter Notebook is crafted for the purpose of analyzing datasets maintaine
 - **Analysis of Resampled Dataset**: Offers tools to further analyze the balanced dataset, with plots and statistical tests designed to uncover robust insights from the equitably represented data.
 
 This notebook acts as a powerful tool for researchers and data analysts, streamlining the workflow from data ingestion to comprehensive analysis, thus enabling a deeper and more accurate exploration of datasets.
+
+### Plot&Stats - dimensionality reduction
+
+#### **Key Features**
+
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats-%20dimensionality%20reduction.ipynb)
+
+- **PCA Analysis & Plots**: Generates PCA plots that visually represent the data's variance along principal components, along with the PCA loadings to identify contributing features.
+- **UMAP or t-SNE  Visualization**: Utilizes UMAP or t-SNE for dimensionality reduction to project high-dimensional data into a lower-dimensional space, enhancing cluster identification.
+- **HDBSCAN Clustering**: Applies the HDBSCAN algorithm to identify naturally occurring clusters in the data without specifying the number of clusters a priori.
+- **Fingerprinting Plots**: Creates fingerprinting plots that detail the distribution of the identified clusters accross the conditions.
+- **Boxplots of Clusters**: Generates boxplots for each identified cluster to compare distributions across different conditions.
+
 
