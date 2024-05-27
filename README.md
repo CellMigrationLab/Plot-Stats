@@ -11,7 +11,7 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
   
 - **Plot&Stats - BoxPlots**: Enhanced data visualization, quantifies effect size, adapts to non-standard distributions, streamlines analysis, ensures equitable group representation, achieves dataset balance for fairer comparisons, and delivers in-depth insights from balanced data.
   
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20BoxPlots.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats_BoxPlots.ipynb)
 
 - **Plot&Stats - dimensionality reduction**: Notebook for generating PCA, UMAP or t-SNE dimensional reduction of multidimensional datasets.
     
@@ -57,7 +57,7 @@ Wide format is more readable for direct comparisons across a subject's measureme
 
 ### Plot&Stats - BoxPlots
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20BoxPlots.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats_BoxPlots.ipynb)
 
 
 This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
