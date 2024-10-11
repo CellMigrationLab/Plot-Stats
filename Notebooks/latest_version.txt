@@ -1,5 +1,5 @@
 Notebook,Version
-BoxPlots,0.2
+BoxPlots,0.3
 wide2tidy,0.1
 dimensionality_reduction,0.1
 
