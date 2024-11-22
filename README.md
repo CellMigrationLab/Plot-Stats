@@ -1,5 +1,5 @@
 # Plot&Stats
-Jupyter notebooks created to help us plot and analyse our datasets
+Jupyter notebooks were created to help us plot and analyze our datasets
 
 ## Quick Start
 
@@ -13,15 +13,19 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
   
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats_BoxPlots.ipynb)
 
-- **Plot&Stats - dimensionality reduction**: Notebook for generating PCA, UMAP or t-SNE dimensional reduction of multidimensional datasets.
+- **Plot&Stats—dimensionality reduction**: A notebook for generating PCA, UMAP, or t-SNE dimensional reduction of multidimensional datasets.
     
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats-%20dimensionality%20reduction.ipynb)
 
+  - **Plot&Stats - `.pzfx` to `.csv` Converter**: Convert GraphPad Prism `.pzfx` files into `.csv` format for analysis.
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/GraphPad_to_csv.ipynb)
+
+
 ## About the Notebooks
 
-
 ### Plot and Stats - wide to tidy 
-This notebook is designed to transform wide-format data into a tidy format for further analysis
+This notebook is designed to transform wide-format data into a tidy format for further analysis.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats%20-%20wide%20to%20tidy.ipynb)
 
@@ -40,7 +44,7 @@ Wide and tidy formats represent two principal ways of structuring tabular data:
     ```
 
 - **Tidy Format**:
-  - Each column is a variable, each row an observation.
+  - Each column is a variable, and each row is an observation.
   - Suited for statistical analysis and plotting.
   - Each row represents a unique combination of variables.
   - Example with biological repeats:
@@ -60,7 +64,7 @@ Wide format is more readable for direct comparisons across a subject's measureme
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats_BoxPlots.ipynb)
 
 
-This Jupyter Notebook is crafted for the purpose of analyzing datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing both the analysis and interpretability of your data.
+This Jupyter Notebook is crafted to analyze datasets maintained in a [tidy format](https://thenode.biologists.com/converting-excellent-spreadsheets-tidy-data/education/). It integrates a comprehensive set of functionalities for in-depth data examination, statistical evaluation, and dataset balancing, enhancing your data's analysis and interpretability.
 
 #### **Key Features**
 
@@ -92,4 +96,23 @@ This notebook acts as a powerful tool for researchers and data analysts, streaml
 - **Fingerprinting Plots**: Creates fingerprinting plots that detail the distribution of the identified clusters accross the conditions.
 - **Boxplots of Clusters**: Generates boxplots for each identified cluster to compare distributions across different conditions.
 
+### Plot&Stats - `.pzfx` to `.csv` Converter
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/GraphPad_to_csv.ipynb)
+
+This notebook facilitates the conversion of GraphPad Prism `.pzfx` files into `.csv` files for further analysis. The `.csv` files are packaged into a `.zip` archive for easy downloading and use. 
+
+#### **Key Features**
+- Extracts tables from `.pzfx` files and converts them into `pandas` DataFrames.
+- Saves each table as a separate `.csv` file.
+- Packages all generated `.csv` files into a single `.zip` archive.
+
+#### **How to Use**
+1. Upload your `.pzfx` file when prompted.
+2. The notebook will parse the file and create `.csv` files for each table.
+3. After processing, manually download the `converted_tables.zip` file from the **Files** pane on the left side of the Colab interface:
+   - Open the **Files** pane in Colab.
+   - Locate the file `converted_tables.zip`.
+   - Right-click on it and select **Download**.
+
+This notebook simplifies working with GraphPad Prism data by enabling seamless integration with other tools and analysis workflows.
