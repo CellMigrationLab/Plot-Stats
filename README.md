@@ -17,7 +17,7 @@ Access the notebooks directly in Google Colab for an easy-to-use environment:
     
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/Plot%26Stats-%20dimensionality%20reduction.ipynb)
 
-  - **Plot&Stats - `.pzfx` to `.csv` Converter**: Convert GraphPad Prism `.pzfx` files into `.csv` format for analysis.
+- **Plot&Stats - `.pzfx` to `.csv` Converter**: Convert GraphPad Prism `.pzfx` files into `.csv` format for analysis.
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CellMigrationLab/Plot_and_Stats/blob/main/Notebooks/GraphPad_to_csv.ipynb)
 
